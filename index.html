@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Form Name</title>
+</head>
+<body>
+    <form name="formulario">
+        <fieldset>
+            <h1>Form Name</h1>
+            <p>
+                Nome: <input type="text" name="texto" placeholder="Digite um nome">
+            </p>
+
+            <p>
+                Data Nascimento: <input type="date" name="date" >
+            </p>
+            
+            <p>
+                Endereço: <input type="text" name="adress" placeholder="Digite seu endereço">
+            </p>
+
+            <p>
+                Nro: <input type="number" name="nro" placeholder="Digite seu Nro">
+            </p>
+
+            <p>
+                Cidade: <input type="text" name="city" placeholder="Digite sua cidade">
+            </p>
+
+            <p>
+                Estado: <select name="selecione">
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AP</option>
+                        <option value="4">AM</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="7">DF</option>
+                        <option value="8">ES</option>
+                        <option value="9">GO</option>
+                        <option value="10">MA</option>
+                        <option value="11">MT</option>
+                        <option value="12">MS</option>
+                        <option value="13">MG</option>
+                        <option value="14">PA</option>
+                        <option value="15">PB</option>
+                        <option value="16">PR</option>
+                        <option value="17">PE</option>
+                        <option value="18">PI</option>
+                        <option value="19">RJ</option>
+                        <option value="20">RN</option>
+                        <option value="21">RS</option>
+                        <option value="22">RO</option>
+                        <option value="23">RR</option>
+                        <option value="24">SC</option>
+                        <option value="25">SP</option>
+                        <option value="26">SE</option>
+                        <option value="27">TO</option>
+                    
+                </select>
+            </p>
+
+            <p>Sexo: <select name="selection">
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                    <option value="N">Não-binário</option>
+                    <option value="T">Transgênero</option>
+                    <option value="C">Cisgênero</option>
+                    <option value="O">Outro</option>
+                </select>
+            </p>
+            
+            <p>
+                Bens pessoais:
+                
+                <input type="checkbox" name="casa" value="1" />
+                <label>Casa</label>
+            
+            
+                <input type="checkbox" name="carro" value="2" />
+                <label>Carro</label>
+            
+            
+                <input type="checkbox" name="moto" value="3" />
+                <label>Moto</label>
+            </p>
+            <p>
+                Text Area: <textarea row="50" name="textarea" placeholder="Experiências Pessoais"></textarea>
+            </p>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
